@@ -228,9 +228,9 @@ int main() {
 
     // Get size from user
     do {
-        printf("Enter the size (cannot be chosen above 15): ");
+        printf("Enter the size (be careful for numbers above 15): ");
         scanf("%d", &size);
-    } while (size > 15 || size < 0);
+    } while (size < 0);
 
     // Initialize size-needed variables
     possibilities = (long long int*)malloc(4 * sizeof(long long int));
