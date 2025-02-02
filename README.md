@@ -11,6 +11,9 @@ Optimized 1: If a queen is placed in a row, no other queen is placed in that row
 Optimized 2: If a queen is placed in a row or a column, no other queen is placed in that row or column.<br>
 Backtracking: With the backtracking approach, it quickly obtains valid board states by memorizing the states it has checked.
 
+# Usage
+Download the nqueens.zip from Releases tab and run the .exe file
+
 # Dependencies
 Only C. No external library used.
 
